@@ -1,0 +1,398 @@
+.header-section,.hamburger-section,.footer-section,.home-section,.collection_section,.Blog-section,.AddBlog-section,.Admin-page,.EditPage-section,.about_section,.contact-section,.shop-section,.detailsProduct-section,.Search-section{
+    width: 100%;
+    height: 100%;
+    background-color: var(--bgColor);
+    color: var(--color);
+    button{
+        color: var(--color);
+    }
+
+
+}
+.shop-section{.btn{ color: var(--color);}}
+
+
+
+// when dropdown hover
+.d-desktop:hover .dm-desktop {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+ .dm-desktop>li:hover {
+    color: #027AC0;
+}
+
+// template codes
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-left{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+// Hamburger menu
+.dropdown-menu  {
+    transition: .5s;
+    max-height: 600px; 
+}
+
+
+
+// dark mode 
+.dark{
+    --bgColor:#333;
+    --color:#fff;
+
+}
+
+.light{
+    --bgColor:#fff;
+    --color:#333;
+
+}
+
+
+
+
+.header-section{
+    box-shadow: 0px 0px 20px black;
+}
+
+// General Btn
+.mybtn{
+    background: #fff;
+    color: #333;
+    transition: all .4s;
+    &:hover{
+        color: #fff;
+        background: #027AC0;
+    }
+}
+
+
+// Slider
+.slider{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .close{
+        display: none;
+    }
+
+    .textSlider{
+        width: 35%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .sliderbtn{
+            display: inline-block !important;
+
+            &:hover{
+                background-color: #027AC0 !important;
+                color: #fff !important;
+            }
+        }
+    }
+}
+#slider1{
+    background: url("https://cdn.shopify.com/s/files/1/0641/3431/6288/files/slider-1.jpg?v=1650691565")  center/cover;
+
+}
+#slider2{
+    background: #fff url("https://cdn.shopify.com/s/files/1/0641/3431/6288/files/slider-02_1.png?v=1650977324") center/cover;
+    
+}
+
+// Top Category
+.TopCaregories{
+
+    #category1{
+        // background: ;
+    }
+}
+
+.slider1{
+    
+    .swiper-button-prev{
+        position: relative ;
+        &::after{
+            color: #fff;
+            position: absolute;
+            
+            top:  -300%;
+            left: 250%;
+            border-radius: 50%;
+            border:1px solid #fff;
+            padding: 10px 15px 10px 10px ;
+
+        }
+    }
+    .swiper-button-next{
+        position: relative ;
+        &::after{
+            color: #fff;
+            position: absolute;
+            top:  -350%;
+            left: 650%;
+            border-radius: 50%;
+            border:1px solid #fff;
+            padding: 10px 10px 10px 15px ;
+     
+
+
+        }
+    }
+
+}
+
+.slider2{
+    
+    .swiper-button-prev{
+
+        &::after{
+            color: #fff;
+            position: absolute;
+            left: 5%;
+        }
+    }
+    .swiper-button-next{
+
+        &::after{
+            color: #fff;
+            position: absolute;
+            right: 20%;
+        }
+    }
+
+}
+
+
+//       BluetoothLap
+.bluetoothLap{
+    color: #fff;
+    .bluetoothLapBg1{
+        height: 70vh;
+        background: url('https://cdn.shopify.com/s/files/1/0641/3431/6288/files/offer-banner-1.png?v=1650870793') center/cover;
+    }
+    .bluetoothLapBg2{
+        height: 70vh;
+        background: url('https://cdn.shopify.com/s/files/1/0641/3431/6288/files/offer-banner-2.jpg?v=1650870793') center/cover;
+    }
+}
+
+
+.slider_3H{
+
+    background:#c0c0c0;
+   border-radius: 10px;
+    img{
+        opacity: .5;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+
+
+.singelCard{
+    // background: #F8F8F8;
+    background-color: var(--bgColor);
+    border: 1px solid #fff;
+    // border: 1px solid black;
+    height: 75vh;
+
+
+    a{
+        text-decoration: none;
+    }
+}
+.SingleShopCardFull{
+    background: #F8F8F8;
+    height: 40vh;
+   
+
+
+    .img-box{
+        width: 100%;
+        height: 40vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+            height: 30vh;
+            object-fit: cover;
+        }
+
+    }
+
+}
+
+
+// Shop
+.shop-section{
+    
+    .img-box{
+        width: 100%;
+        height: 30vh;
+        img{
+            width: 100%;
+            height: 25vh;
+            object-fit: cover;
+        }
+
+    }
+}
+
+//  Collection Page
+.electronic{
+    height: 50vh;
+    transition: .5s;
+    border-radius: 1em;
+    
+
+    .position_r{
+        position: relative;
+        overflow: hidden;
+ 
+    }
+    #phone-btn-1{
+        width: 125px;
+        height: 60px;
+        color: #027AC0;
+        background-color: #fff;
+        transition: .5s;
+        
+    }
+
+    #phone-btn-2{  
+        width: 125px;
+        height: 0px;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition:  1s;
+        padding: 0;
+        border: none;
+        background-color: #027AC0;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    &:hover{
+         background-color: #8D8D8D !important;
+
+        #phone-btn-1{  visibility: hidden;   }
+        #phone-btn-2{
+            height: 60px;
+            visibility: visible;
+            color: #fff;
+
+        }
+
+    }
+}
+
+
+#phone{ background:#ebdddd url('../images/phone_bg.webp') no-repeat center/contain;}
+#laptop{ background: #ebdddd url('../images/laptop.png') no-repeat center/contain;}
+#tablet{ background: #ebdddd url('../images/tablet.png') no-repeat center/contain;}
+#camera{ background: #ebdddd url('../images/video_camera.png') no-repeat center/contain;}
+#tv{  background: #ebdddd url('../images/tv.png') no-repeat center/contain;}
+#home{background: #ebdddd url('../images/home.png') no-repeat center/contain;}
+#phone_a{ background: #ebdddd url('../images/mobile-accessories.png') no-repeat center/contain;}
+#laptop_a{background: #ebdddd url('../images/laptop_a_.jpg') no-repeat center/contain;}
+#child{ background: #ebdddd url('../images/kids.webp') no-repeat center/contain;}
+#fan{background: #ebdddd url('../images/air-conditioner.webp') no-repeat center/contain;}
+#wash{background: #ebdddd url('../images/washing-machines.png') no-repeat center/contain;}
+#car{background: #ebdddd url('../images/car.webp') no-repeat center/contain;}
+
+
+
+// About us
+
+
+
+#keyboard{
+    width: 100%;
+    height: 300px;
+    background: url('https://electon6-store.myshopify.com/cdn/shop/files/counter.jpg?v=1673264657') fixed center/cover ;
+
+
+}
+
+
+#ourTeam{box-shadow: 0 0 15px #bebebe;}
+
+
+//Contact page
+iframe {
+    width: 100%;
+
+    }
+
+#form1{
+
+    input,textarea{
+        width: 100%;
+        padding: .5em;
+        outline: none;
+        border: 1px solid silver;
+        box-shadow: 0 0 5px silver;
+        
+    }
+    textarea{resize: none;}
+
+
+}
+.form-icons {
+    transition: .5s;
+    &:hover{
+        background: #0D6EFD;
+        color: #fff !important;
+        box-shadow: 0 0 10px #027AC0;
+    }
+}
+
+//.Admin-page
+
+
+
+
+//Footer Section
+.footer-section{
+    a{
+        text-decoration: none;
+        color: var(--color);
+    }
+}
+  
+
+
+@media only screen and (max-width: 576px) {
+
+    // Shop page
+.SingleShopCardFull{
+    height: 80vh;
+    text-align: center;
+
+    .position-absolute {left: 30%;}
+
+}
+
+}

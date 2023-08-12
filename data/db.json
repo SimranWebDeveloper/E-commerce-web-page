@@ -1,0 +1,598 @@
+
+
+{
+    "products":[
+
+        {
+          "id": 1,
+          "title":"iPhone 14 Pro 256 GB Deep Purple",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 3149.99,
+          "discountPercentage": 15,
+          "rating": 4.4,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T092235.773_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T093109.433_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T093157.343_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T093330.513_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T092445.612_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T093244.395_png.webp"
+          ]
+        },
+        {
+          "id": 2,
+          "title":"iPhone 14 Pro 128 GB Gold",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.8,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold-1_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold-2-1_png.webp ",
+            "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold-3-1_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold-4-1_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold-5-1_png.webp"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Samsung Galaxy S23 (SM-S911B) 8/256 GB Green",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 2099.99,
+          "discountPercentage": 20,
+          "rating": 4.8,
+          "stock": 36,
+          "brand": "Samsung",
+          "category": "smartphones",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_Front_Green-1_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_Front2_Green_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_Front_Green-1_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_FrontL30_Green_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_Back_Green_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_Lside_Green_png.webp"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Xiaomi Redmi Note 12 8/128 GB w/o NFC Onyx Gray",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 499.99,
+          "discountPercentage": 18,
+          "rating": 4.3,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142446.916.jpg",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142446.916.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142642.263.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142626.464.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142517.172.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142554.932.jpg"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "HUAWEI P60 Pro 8/256 GB Black",
+          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+          "price": 2199.99,
+          "discountPercentage": 12,
+          "rating": 4.2,
+          "stock": 32,
+          "brand": "Huawei",
+          "category": "smartphones",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-24T163740.001_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-24T163740.001_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-24T163951.572_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-24T164051.190_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/800_800_657CDB10EE78A7551CDBEBC8246C89D0_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/800_800_8558F5FC73E355C38F99D16F645D6669_png.webp"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Notbuk Apple MacBook Pro 16 MNWC3RU/A Silver",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 6779.99,
+          "discountPercentage": 20,
+          "rating": 4.8,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops-notebooks",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/02/New-Project-2023-02-17T101813.676-1_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-2023-02-17T101813.676-1_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/01/DIqqet_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-2023-02-17T102208.611_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-2023-02-17T102025.304_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-2023-02-17T102128.158_png.webp"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Notbuk Asus TUF A15 FA507NU-LP031 90NR0EB5-M003D0",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 3059.99,
+          "discountPercentage": 5.55,
+          "rating": 4.85,
+          "stock": 50,
+          "brand": "Asus",
+          "category": "laptops-notebooks",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.jpg",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-85-3_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-86-3_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-87-3_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-88-2_png.webp"
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Notbuk Acer Predator HELIOS 300 PH315 (NH.QGMER.006)",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 6499.99,
+          "discountPercentage": 10,
+          "rating": 4.1,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops-notebooks",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/02/Predator-2_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/02/Predator-2_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/4-10_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/2-12_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/3-11_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/5-10_png.webp"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Lenovo IdeaCentre AIO 3 27ITL6 (F0FW00MFRU)",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "price": 3599.99,
+          "discountPercentage": 10,
+          "rating": 4.8,
+          "stock": 96,
+          "brand": "Infinix",
+          "category": "laptops-notebooks",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164214.266_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164214.266_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164358.262_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164519.508_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164554.956_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164634.207_png.webp"
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Monoblok HP Pavilion AIO 24-K1021UR (5D265EA)",
+          "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+          "price": 2999.99,
+          "discountPercentage": 15,
+          "rating": 4.4,
+          "stock": 89,
+          "brand": "HP Pavilion",
+          "category": "laptops-notebooks",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092625.569_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092625.569_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092549.860_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092549.860_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092709.070_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092722.514_png.webp"
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Web Camera Canyon C6 2K / CNS-CWC6N",
+          "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
+          "price": 2899.99,
+          "discountPercentage": 14,
+          "rating": 4.7,
+          "stock": 114,
+          "brand": "Al Munakh",
+          "category": "camera",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/12/New-Project-2022-12-23T171521.372_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/12/New-Project-2022-12-23T171521.372_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/12/19598_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/12/28777.webp",
+            "https://kontakt.az/wp-content/uploads/2022/12/24466_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/12/24467.webp"
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Web Camera Razer Kiyo Black",
+          "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
+          "price": 999.99,
+          "discountPercentage": 5,
+          "rating": 3.8,
+          "stock": 105,
+          "brand": "Lord - Al-Rehab",
+          "category": "camera",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/02/New-Project-7-2_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-7-2_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-11-2_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-8-2_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-10-2_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-9-2_png.webp"
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Sony Microphone Video Camera ECM-GZ1M",
+          "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+          "price": 799.99,
+          "discountPercentage": 18,
+          "rating": 4.8,
+          "stock": 110,
+          "brand": "L'Oreal Paris",
+          "category": "camera",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/10/New-Project-2022-10-05T162737.039_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/10/New-Project-2022-10-05T162737.039_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/10/orig-5.webp",
+            "https://kontakt.az/wp-content/uploads/2022/10/orig-6.webp",
+            "https://kontakt.az/wp-content/uploads/2022/10/orig-7.webp",
+            "https://images-na.ssl-images-amazon.com/images/I/51Qkbz8Z+pL._AC_UL900_SR615,900_.jpg"
+          ]
+        },
+        {
+          "id": 17,
+          "title": "iPad Pro 12.9-inch (6Th Gen) 128GB Wi-Fi Space Grey",
+          "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
+          "price": 2999.99,
+          "discountPercentage": 5,
+          "rating": 2.9,
+          "stock": 78,
+          "brand": "Hemani Tea",
+          "category": "tablets",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-05T100000.002_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-05T100000.002_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-05T100213.497_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-05T100123.708_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-05T100249.036_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/11/iPad_Pro_Q123_Cellular_11_in_4th_generation_Space_Gray_PDP_Image_Position-3__WWCE-scaled.webp"
+          ]
+        },
+        {
+          "id": 18,
+          "title": "OPPO Pad Air 4/128 GB Grey",
+          "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
+          "price": 599,
+          "discountPercentage": 15,
+          "rating": 5,
+          "stock": 88,
+          "brand": "Dermive",
+          "category": "tablets",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105746.625_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105746.625_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105802.098_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105819.084_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105756.260_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105832.630_png.webp"
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Televizor LG LED 32LQ63006LA",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 699,
+          "discountPercentage": 15,
+          "rating": 3.9,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "tv",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_51__2_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_51__2_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_52__3_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_53__3_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_54__3_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_55__2_png.webp"
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Televizor LG LED 55UQ79006LA",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 899.99,
+          "discountPercentage": 10,
+          "rating": 4.9,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "tv",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-16T080723.511_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-16T080723.511_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-33_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-3-17_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-8-9_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-10-9_png.webp"
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Soyuducu Teka RMF 75920 SS",
+          "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
+          "price": 8799.99,
+          "discountPercentage": 15,
+          "rating": 4.4,
+          "stock": 7,
+          "brand": "luxury palace",
+          "category": "home-decoration",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/New-Project-448_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-448_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-1-51_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2-15_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/PR9453BI10722_113430005_RFD_77820_SS_EU_SZ1_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/PR9453BI17404_113430005_RFD_77820_SS_EU_SZ1_png.webp"
+   
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Soyuducu Teka RFD 77820 GBK",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 7989.99,
+          "discountPercentage": 5,
+          "rating": 4.7,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "home-decoration",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/07/New-Project-94_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/07/New-Project-94_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/New-Project-96_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/New-Project-95_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/New-Project-99_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/New-Project-98_png.webp"
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Qulaqlıq Bang & Olufsen Beoplay HX Gold Tone 1224016",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 1099.99,
+          "discountPercentage": 20,
+          "rating": 4.9,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "phone_a",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161043.601_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161043.601_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161048.513_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161118.382_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161110.854_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161101.561_png.webp"
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Qulaqlıq Bang & Olufsen Beoplay Hx Black Anthracite / 1224000",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 1199.99,
+          "discountPercentage": 18,
+          "rating": 4.5,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "phone_a",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2021/05/Hx_Black_3_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2021/05/Hx_Black_3_png.webp",
+            "https://kontakt.az/wp-content/uploads/2021/05/HX_black_Hero_png.webp",
+            "https://kontakt.az/wp-content/uploads/2021/05/HX_Black_7_png.webp",
+            "https://kontakt.az/wp-content/uploads/2021/05/HX_Black_8_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-27T132627.620_png.webp"
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Gaming Keyboard Hyperx Allow MKW100 / 4P5E1AX#ACB-N",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 199,
+          "discountPercentage": 25,
+          "rating": 4.8,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "laptop_a",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/09/Kontakt-home-2022-09-23T091608.418_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/09/Kontakt-home-2022-09-23T091608.418_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/Kontakt-home-2022-09-23T091550.807_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/09/Kontakt-home-2022-09-23T091527.108_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-1-14_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-26_png.webp"
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Gaming Keyboard Defender Doom Keeper GK-100DL Wired / 45100",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 44.49,
+          "discountPercentage": 8,
+          "rating": 3.7,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "laptop_a",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/08/New-Project-7-6_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-7-6_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-8-6_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-27_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-6-9_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-5-8_png.webp"
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Chicco Youniverse Fix avtomobil oturacağı 08079207510000",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 619.99,
+          "discountPercentage": 25,
+          "rating": 4.3,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "child",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/07/New-Project-61-2_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/07/New-Project-61-2_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/07/08079207510000.3.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/07/08079207510000.4.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/07/08079207510000.5.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/07/08079207510000.6.jpg"
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Chicco Bravo uşaq arabası / 00079632920070",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 1129,
+          "discountPercentage": 5,
+          "rating": 4.7,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "child",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-144_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-144_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-6-19_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2-57_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-4-38_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-3-43_png.webp"
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Kondisioner Samsung AR09BQHQASINER",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 1099,
+          "discountPercentage": 15,
+          "rating": 4,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "fan",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/08/Kontakt-Home-2022-08-08T120702.115_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/08/Kontakt-Home-2022-08-08T120702.115_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/08/Kontakt-Home-2022-08-08T120809.615_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/08/Kontakt-Home-2022-08-08T120749.961_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/08/Kontakt-Home-2022-08-08T120732.406_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/07/bora_inverter3_473i-ig_jplb-lm_0_png.webp"
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Kondisioner Midea AG-18N8D0 Black",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 1899.99,
+          "discountPercentage": 30,
+          "rating": 4.9,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "fan",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092134.833_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092134.833_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092200.069_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092219.958_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092246.460_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092405.485_png.webp"
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Paltaryuyan LG F20L2CRV2E2",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 3599.99,
+          "discountPercentage": 25,
+          "rating": 2.3,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "wash",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100035.365_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100035.365_png.webp",
+            "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100048.835_png.webp",
+            "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100235.611_png.webp",
+            "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100226.106_png.webp",
+            "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100210.583_png.webp"
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Paltaryuyan Bosch WAX32MX0ME",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 3999.99,
+          "discountPercentage": 20,
+          "rating": 4.8,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "wash",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083059.934-1_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083059.934-1_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083327.054_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083404.973_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083615.979_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083729.477_png.webp"
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Continental ContiSportContact 6 107Y XL 285/35R23 (3572760000)",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 1209.99,
+          "discountPercentage": 15,
+          "rating": 4.2,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "car",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T225830.343.jpg",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T225830.343.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T225955.875.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T230034.265.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T224623.599-1.jpg",
+            "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T174004.334_png.webp"
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Panda Pars Series Black / Blue",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 349.99,
+          "discountPercentage": 5,
+          "rating": 4.7,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "car",
+          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/08/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-08-11T175416.355-1_png.webp",
+          "images": [
+            "https://kontakt.az/wp-content/uploads/2023/08/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-08-11T175416.355-1_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/08/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-08-11T174935.811_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/08/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-08-11T174647.433_png.webp",
+            "https://kontakt.az/wp-content/uploads/2023/08/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-08-11T175140.094_png.webp",
+            "https://kontakt.az/wp-content/uploads/2022/10/New-Project-57-1_png.webp"
+          ]
+        }
+
+]
+}
