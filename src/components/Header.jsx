@@ -69,6 +69,8 @@ const Header = () => {
   // Add to card
   const {totalUniqueItems} = useCart();
   //    totalUniqueItems       -- cards counter
+
+
  
 
 
@@ -76,7 +78,7 @@ const Header = () => {
     <section   className=' header-section  center position-sticky top-0 z-3 '  >
       <div className={open ? "hamgurgerDiv" : " hamgurgerDiv myZ"}></div>
 
-      <nav className="container-fluid p-3 ">
+      <nav className="container-fluid px-3 ">
         <div className="row ">
           <div className="col-lg-2 col-md-3 col-sm-5 col-5">
             <NavLink to='../' >
@@ -203,7 +205,9 @@ const Header = () => {
                 <button className="btn d-none d-lg-block " onClick={()=>toggleTheme()}>{darkMode ? <BsMoonFill className="text-secondary"/> : <BsFillSunFill className="text-warning"/>}</button>
               {/*  --------------  */}
                 
-             
+     
+
+            
 
               
                  {/*-------------------------- Hamburger Menu------------------------------- */}

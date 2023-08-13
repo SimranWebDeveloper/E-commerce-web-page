@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 import { useWishlist } from 'react-use-wishlist';
 import { AiFillHeart,AiOutlineHeart } from "react-icons/ai";
-
+import {  toast } from 'react-toastify';
 
 const WishListBtn = ({product}) => {
 
@@ -20,7 +20,7 @@ const WishListBtn = ({product}) => {
 
 
   return (
-    <button  className="btn text-primary" onClick={()=>toogleWishList(product)}>{inWishlist(product.id) ? <AiFillHeart/> : <AiOutlineHeart/>  } </button>
+    <button  className="btn text-primary" onClick={()=>{toogleWishList(product);}}>{inWishlist(product.id) ? <AiFillHeart/> : <AiOutlineHeart/>  } </button>
 
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import { autUsers } from '../utils'
 import { NavLink } from 'react-router-dom'
 import { FcBusinessman } from "react-icons/fc";
+import {  toast } from 'react-toastify';
 
 
 const AutBtn = () => {
@@ -9,7 +10,8 @@ const AutBtn = () => {
   const data=JSON.parse(localStorage.getItem('User'))
   const logOut = () => {
     localStorage.removeItem('User')
-    // window.location.reload()
+    window.location.reload()
+    toast.success("You are logged out of your account")
   }
 
     const aut = () =>{

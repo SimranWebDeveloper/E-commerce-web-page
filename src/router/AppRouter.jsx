@@ -15,7 +15,6 @@ import PrivateRoute from "../routes/PrivateRoute";
 import { GlobalThemeContext } from "../context/ThemeContext";
 import About from "../pages/pag/About";
 import Contact from "../pages/pag/Contact";
-import Test from "./Test";
 import AddBlog from "../pages/blog/AddBlog";
 import { useSelector } from "react-redux";
 import EditPage from "../pages/blog/EditPage";
@@ -23,6 +22,10 @@ import Search from "../search/Search";
 import Cart from "../pages/Cart/Cart";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import Scroll from "../components/Scroll";
+
+
+
 
 
 const AppRouter = () => {
@@ -49,14 +52,14 @@ const AppRouter = () => {
           />
 
           <Header />
+          <Scroll/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/search" element={<Search/>} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/shop/:categoryName" element={<Shop />} />
-            <Route path="/collection" element={<Collection />}>
-              <Route path=":device" element={<Test />} />
-            </Route>
+            <Route path="/collection" element={<Collection />} />
+   
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/wishlist" element={<WishList />} />
@@ -72,6 +75,7 @@ const AppRouter = () => {
             </Route>
           </Routes>
           <Footer />
+          
         </BrowserRouter>
       </ContextProvider>
     </main>

@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { useSelector,useDispatch } from 'react-redux'
 import { useNavigate, useParams } from 'react-router-dom'
 import { editBlogFunc } from '../../redux/Action'
+import {  toast } from 'react-toastify';
 
 
 const EditPage = () => {
@@ -30,8 +31,15 @@ const EditPage = () => {
     const dispatch=useDispatch()
     const submitForm = (e) => {
         e.preventDefault()
+        
         dispatch(editBlogFunc(currentBlog))
-        location('/blog')
+   
+          location('/blog')
+
+        toast.success("Blog successfully modified")
+        
+        
+        
 
     }
   return (

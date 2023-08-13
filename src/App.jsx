@@ -4,7 +4,6 @@ import { WishlistProvider } from "react-use-wishlist";
 import { ThemeProvider } from "./context/ThemeContext";
 import { Provider } from "react-redux";
 import { store } from "./redux/Store";
-import Test from "./router/Test";
 import { CartProvider } from "react-use-cart";
 
 
@@ -20,7 +19,7 @@ const App = () => {
         </WishlistProvider>
       </ThemeProvider>
     </Provider>
-    // <Test/>
+   
   );
 };
 

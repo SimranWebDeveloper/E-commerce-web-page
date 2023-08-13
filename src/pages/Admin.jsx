@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import {MdDelete,MdModeEditOutline} from 'react-icons/md'
 import { NavLink } from 'react-router-dom'
 import { allRemoveBlogFunc, removeBlogFunc } from '../redux/Action'
+import {  toast } from 'react-toastify';
 
 
 
@@ -57,7 +58,7 @@ const Admin = () => {
                       <div className="col-2 ">
                         <div className='overflow-auto w-100 border border-silver  d-flex justify-content-between p-2' style={{height:'30vh'}}> 
                           <NavLink className='btn btn-warning' to={`/editpage/${blog.id}`}  style={{height:'3em'}}><MdModeEditOutline className='fs-5'/></NavLink>
-                          <button className='btn btn-danger' onClick={()=>dispatch(removeBlogFunc(blog.id))} style={{height:'3em'}}><MdDelete className='fs-5'/></button>
+                          <button className='btn btn-danger' onClick={()=>{dispatch(removeBlogFunc(blog.id));toast.success("Blog is successfully deleted")}} style={{height:'3em'}}><MdDelete className='fs-5'/></button>
                         </div>
                       </div>
 
@@ -70,7 +71,7 @@ const Admin = () => {
          
                 <div className="d-flex justify-content-between p-3 ">
                   <NavLink className=' btn btn-primary ' to='/addblog'>Add Blog</NavLink>
-                  <button className="btn btn-danger" onClick={()=>dispatch(allRemoveBlogFunc())}>Clear All Blogs</button>
+                  <button className="btn btn-danger" onClick={()=>{dispatch(allRemoveBlogFunc());toast.success("All Blogs is successfully deleted")}}>Clear All Blogs</button>
                 </div>
                 
     

@@ -22,7 +22,7 @@ const Cart = () => {
   
   console.log(isEmpty);
   return (
-    isEmpty? <p className='text-center py-5 fs-2'>Your cart is empty! </p>:
+    isEmpty? <p className=' Cart-section2 text-center py-5 fs-2 m-0'>Your cart is empty! </p>:
     <div className='Cart-section py-5'>
         <div className="container">
           <div className="row">
@@ -47,14 +47,13 @@ const Cart = () => {
 
                       <td >{item.title}</td>
                       <td >
-                        <button className='btn btn danger' onClick={()=>{updateItemQuantity(item.id,item.quantity+1);}}>➕</button>
+                        <button className='btn btn danger' onClick={()=>{ updateItemQuantity(item.id,item.quantity+1);}}>➕</button>
                         {item.quantity}
-                        <button className='btn btn danger' onClick={()=>{updateItemQuantity(item.id,item.quantity-1);}}>➖</button>
+                        <button className='btn btn danger' onClick={()=>{ updateItemQuantity(item.id,item.quantity-1);}}>➖</button>
                         </td>
-                      <td >{item.itemTotal}</td>
+                      <td >{( item.itemTotal).toFixed(2)}</td>
                       <td >
-                        {/* <NavLink className='btn btn-warning' to={`/editpage/${blog.id}`} ><MdModeEditOutline className='fs-5'/></NavLink>   
-                        onClick={()=>dispatch(removeBlogFunc(blog.id))}         */}
+
                         <button className='btn btn-danger' onClick={()=>{removeItem(item.id);toast.warning('Card deleted')}}><MdDelete className='fs-5'/></button>
                       </td>
                       </tr>
@@ -67,7 +66,7 @@ const Cart = () => {
               
             </table>
             </div>
-            <button className='btn btn-outline-primary' onClick={()=>emptyCart()}>{`Hamisini al cemi: ${cartTotal} ₼`}</button>
+            <button className='btn btn-outline-primary' onClick={()=>{emptyCart();toast.success('You bought all product ')}}>{`Hamisini al cemi: ${cartTotal.toFixed(2)} ₼`}</button>
           </div>
       
       

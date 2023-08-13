@@ -20,7 +20,7 @@ const SingleShopCardFull = ({product}) => {
                 </div>
                 <div className='col-12 col-sm-6 col-md-6 col-lg-8'>
                 <div className="  p-3">
-            <h5 className="card-title">{product.category}</h5>
+            <h5 className="card-title">{product.title}</h5>
             <p>{product.price}</p>
             <p>{product.rating}</p>
             <button className='btn btn-outline-primary' onClick={()=>{addItem(product);toast.success("added to cart")}}>Sebete at</button>

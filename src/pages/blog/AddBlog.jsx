@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { addBlogFunc } from '../../redux/Action';
 import { useNavigate,  } from 'react-router-dom';
+import {  toast } from 'react-toastify';
 
 const AddBlog = () => {
     const [blog,setBlog]=useState(
@@ -27,6 +28,7 @@ const AddBlog = () => {
     const submitForm = (e) => {
         e.preventDefault()
         dispatch(addBlogFunc(blog))
+        toast.success("Blog is successfully added")
         location('/blog')
 
     }

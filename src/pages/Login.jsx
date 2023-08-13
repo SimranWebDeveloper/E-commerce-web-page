@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { json, useNavigate } from 'react-router-dom'
+import {  toast } from 'react-toastify';
 
 
 const Login = () => {
@@ -12,13 +13,13 @@ const Login = () => {
 const submitForm = (e) => {
     e.preventDefault()
     if (user.userName===userName.current.value && user.pass===pass.current.value) {
-        alert('daxil oldun')
+        toast.success("Login is succesfully")
         localStorage.setItem('User',JSON.stringify(user) )
         location('/admin')
-        window.location.reload()
+    
        
     }
-    else   alert('sehv kod')
+    else   toast.error("Login is wrong")
     // const data=JSON.parse(localStorage.getItem('User')) 
     // console.log(data);
 } 
@@ -28,8 +29,8 @@ const submitForm = (e) => {
 
 
   return (
-    <section className='section-login container w-50'>
-        <form onSubmit={submitForm}>
+    <section className='section-login  py-5'>
+        <form onSubmit={submitForm} className='container w-50'>
             <div className="mb-3">
                 <label htmlFor="exampleInputEmail1" className="form-label">UserName </label>
                 <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" ref={userName}/>
