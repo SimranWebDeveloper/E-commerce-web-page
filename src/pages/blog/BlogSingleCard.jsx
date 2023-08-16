@@ -8,7 +8,7 @@ const BlogSingleCard = ({product}) => {
           <img src={product.thumbnail} style={{width:'300px',height:'200px',objectFit:'cover'}} className="card-img-top" alt="..." />
           </div>
           <div className="text-center  border-top p-3">
-              <h5 className="card-title">{product.category}</h5>
+              <h5 className="card-title">{product.title}</h5>
               <p>{product.price}</p>
               <p>{product.rating}</p>
               <p >{product.description}</p>

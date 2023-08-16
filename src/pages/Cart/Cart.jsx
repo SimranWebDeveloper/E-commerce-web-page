@@ -2,6 +2,7 @@ import React from 'react'
 import { useCart } from 'react-use-cart';
 import {MdDelete} from 'react-icons/md'
 import { toast } from 'react-toastify';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -18,9 +19,24 @@ const Cart = () => {
  //     setItems , emptyCart -- to reset the card
 
 
-   
-  
-  console.log(isEmpty);
+ // check user or admin registrered or not
+
+ const location=useNavigate()
+ const checkRegister  = () => {
+  if (localStorage.getItem('currentUser') || localStorage.getItem('User') ) {
+    emptyCart();
+    toast.success('You bought all product')
+  }
+  else{
+
+    toast.warning('Please login or sign up ')
+    location('/login')
+  }
+
+
+
+ }
+
   return (
     isEmpty? <p className=' Cart-section2 text-center py-5 fs-2 m-0'>Your cart is empty! </p>:
     <div className='Cart-section py-5'>
@@ -66,7 +82,7 @@ const Cart = () => {
               
             </table>
             </div>
-            <button className='btn btn-outline-primary' onClick={()=>{emptyCart();toast.success('You bought all product ')}}>{`Hamisini al cemi: ${cartTotal.toFixed(2)} ₼`}</button>
+            <button className='btn btn-outline-primary' onClick={checkRegister}>{`Hamisini al cemi: ${cartTotal.toFixed(2)} ₼`}</button>
           </div>
       
       
