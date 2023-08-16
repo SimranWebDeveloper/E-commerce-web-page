@@ -10,6 +10,7 @@ import master from '../pages/home/img/master.png'
 import american from '../pages/home/img/american.png'
 
 import { GlobalThemeContext } from '../context/ThemeContext';
+import { useTranslation } from 'react-i18next';
 
 
 
@@ -17,6 +18,8 @@ import { GlobalThemeContext } from '../context/ThemeContext';
 const Footer = () => {
  // dark mode
 const{darkMode}=useContext(GlobalThemeContext)
+// language 
+const{t}=useTranslation()
 
   return (
     <footer       className='footer-section' >
@@ -35,7 +38,7 @@ const{darkMode}=useContext(GlobalThemeContext)
               </p>
               <p>
                 <MdLocationOn/>
-                <a href="https://goo.gl/maps/VhNEY7JGufd3YK3d6">20 Princess road, london, greater london NW1, UK</a>
+                <a href="https://goo.gl/maps/VhNEY7JGufd3YK3d6">{t('footer.0')}</a>
               </p>
               <p>
                 <GrMail/>
@@ -52,36 +55,36 @@ const{darkMode}=useContext(GlobalThemeContext)
             </ul>
           </div>
           <div className='col-lg-3'>
-            <h5>FIND CATEGORIES</h5>
-            <p><NavLink>Desktop</NavLink></p>
-            <p><NavLink>Laptops & notebooks</NavLink></p>
-            <p><NavLink>Components</NavLink></p>
-            <p><NavLink>Tablets</NavLink></p>
-            <p><NavLink>Software</NavLink></p>
-            <p><NavLink>Phone & PDAS</NavLink></p>
+            <h5>{t('footer.18')}</h5>
+            <p><NavLink to={'/shop/laptops-notebooks'}>{t('footer.1')}</NavLink></p>
+            <p><NavLink to={'/shop/laptops-notebooks'}>{t('footer.2')}</NavLink></p>
+            <p><NavLink to={'shop/laptop_a'}>{t('footer.3')}</NavLink></p>
+            <p><NavLink to={'shop/tablets'}>{t('footer.4')}</NavLink></p>
+            <p><NavLink to={'shop/laptop_a'}>{t('footer.5')}</NavLink></p>
+            <p><NavLink to={'shop/phone_a'}>{t('footer.6')}</NavLink></p>
           </div>
           <div className='col-lg-3'>
-          <h5>CUSTOMER CARE</h5>
-            <p><NavLink>Contact us</NavLink></p>
-            <p><NavLink>About us</NavLink></p>
-            <p><NavLink>Faq's</NavLink></p>
-            <p><NavLink>Privacy policy</NavLink></p>
-            <p><NavLink>Terms & condition</NavLink></p>
-            <p><NavLink>Wishlist</NavLink></p>
+          <h5>{t('footer.7')}</h5>
+            <p><NavLink to={'/contact'}>{t('footer.8')}</NavLink></p>
+            <p><NavLink to={'/about'}>{t('footer.9')}</NavLink></p>
+            <p><NavLink to={'/about'}>{t('footer.10')}</NavLink></p>
+            <p><NavLink to={'/about'}>{t('footer.11')}</NavLink></p>
+            <p><NavLink to={'/about'}>{t('footer.12')} </NavLink></p>
+            <p><NavLink to={'/wishlist'}>{t('footer.13')}</NavLink></p>
           </div>
           <div className='col-lg-3'>
-          <h5>JOIN OUR NEWSLETTER</h5>
-            <p>Subscribe the newsletter for all the latest updates</p>
+          <h5>{t('footer.14')}</h5>
+            <p>{t('footer.15')}</p>
             <form >
               <input type="email" placeholder='email@.example.com' className='w-100'/>
-              <button className='btn btn-primary text-uppercase w-100' type='submit'>subuscribe</button>
+              <button className='btn btn-primary text-uppercase w-100' type='submit'>{t('footer.16')}</button>
             </form>
           </div>
         </div>
         <hr />
         <div className='row'>
           <div className='col-md-6 col-lg-6'>
-            Copyright &copy; 2023 ecommerce by spacingtech
+            Copyright &copy; {t('footer.17')} by Simran Abbasov
           </div>
           <div className='col-md-6 col-lg-6'>
             <div className='d-flex justify-content-end '>

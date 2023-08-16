@@ -223,27 +223,18 @@ const Header = () => {
                   <div></div>
                   <button type="button" className="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div className="offcanvas-body">
-                  <div className="dropdown mt-3">
+                <div className="offcanvas-body ">
+                  <div className="dropdown   mt-3">
                     <button className="btn  dropdown-toggle border-0 " type="button" data-bs-toggle="dropdown">
                       <GiHamburgerMenu/> Menu
                     </button>
-                    <ul  className="dropdown-menu w-100 border-0">
+                    <ul  className="dropdown-menu hamburger-dropdown-menu w-100 border-0">
                       <li className=" border-bottom border-top py-2">
                         <NavLink to="/" className="nav-link">HOME</NavLink>
                       </li>
                       <li className=" border-bottom py-2">
                         <NavLink to="/shop/all" className="nav-link">  SHOP </NavLink>
-                          <div className="dropdown">
-                            <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown button
-                            </button>
-                            <ul className="dropdown-menu">
-                              <li><a className="dropdown-item" href="#">Action</a></li>
-                              <li><a className="dropdown-item" href="#">Another action</a></li>
-                              <li><a className="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </div>
+
 
                       </li>
                       <li className=" border-bottom py-2">
@@ -257,26 +248,13 @@ const Header = () => {
                             Pages
                           </a>
                         <ul className="dropdown-menu dm-desktop">
-                          <li><NavLink to="/about_us" className="nav-link">  About us </NavLink></li>
-                          <li><NavLink to="/contact_us" className="nav-link">  Contact us </NavLink></li>
+                          <li><NavLink to="/about" className="nav-link">  About us </NavLink></li>
+                          <li><NavLink to="/contact" className="nav-link">  Contact us </NavLink></li>
                         </ul>
                       </li>
 
 
-                       {/* Seach Bar */}
-                      <li>
-                        <form className="d-flex justify-content-between bg-secondary-subtle rounded py-1 px-1">
-                          <input
-                            type="search"
-                            placeholder="Find your search"
-                            className="border-0 bg-secondary-subtle text-secondary "
-                          />
-                          <button className="btn">
-                            <FiSearch />
-                          </button>
-                        
-                          </form>
-                      </li>
+
                        
                       <li>
                         <ul className="d-flex justify-content-around align-items-center list-unstyled">
@@ -299,42 +277,11 @@ const Header = () => {
                           </li>
                          {/*  Add to Card Page  */}
                         <li>
-                          <NavLink to="/cart" className="btn fs-4 ">
+                          <NavLink to="/cart" className="btn fs-4 hamburger-card ">
                             <BsCart3 />
                           </NavLink>
                         </li>
-                         {/*Language Page  */}
-                      <li>
-                        <div className="dropdown  ">
-                          <button
-                            className="btn  dropdown-toggle"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                          >
-                            {i18n.language}
-                          </button>
-                          <ul className="dropdown-menu">
-                            <li>
-                              <button
-                                className="dropdown-item"
-                                onClick={() => handleLangClick("az")}
-                              >
-                                <span className="fi fi-az"></span> Az
-                              </button>
-                            </li>
-                            <li>
-                              <button
-                                className="dropdown-item"
-                                onClick={() => handleLangClick("en")}
-                              >
-                                <span className="fi fi-gb"></span> En
-                              </button>
-                            </li>
-                            
-                          </ul>
-                        </div>
-                      </li>
+
                         {/*  Dark-Light Mode  */}
                       <li>
                         <button className="btn  " onClick={()=>toggleTheme()}>{darkMode ? <BsMoonFill className="text-secondary"/> : <BsFillSunFill className="text-warning"/>}</button>

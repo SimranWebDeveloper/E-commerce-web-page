@@ -6,9 +6,44 @@
         "3" : "BLOG",
         "4" : "PAGES",
         "5" : "LAN"
-        
-        
-        
-        
+    },
+    "home":{
+        "0" :  "top categories", 
+        "1" : "trending product",
+        "2" : "FEATURED PRODUCT",
+        "3" : "GET UP TO 50% OFF",
+        "4" : "Bluetooth headphones",
+        "5" :"shop collection",
+        "6" :"GET UP TO 33% OFF",
+        "7" :"Laptop I5 collection"
+    },
+    "slider1":{
+        "0" :  "Starting Price", 
+        "1" : "Potable wireless",
+        "2" : "Smart 4k desk",
+        "3" : "Shop now",
+        "4" :"Shop Collection"
+    },
+    "footer":{
+        "0" :  "20 Princess road, london, greater london NW1, UK", 
+        "1" : "Desktop",
+        "2" : "Laptops & notebooks",
+        "3" : "Components",
+        "4" : "Tablets",
+        "5" :"Software",
+        "6" :"Phone & PDAS",
+        "7" :"CUSTOMER CARE",
+        "8" :"Contact us",
+        "9" :"About us",
+        "10" :  "Faq's", 
+        "11" : "Privacy policy",
+        "12" : "Terms & condition",
+        "13" : "Wishlist",
+        "14" : "JOIN OUR NEWSLETTER",
+        "15" :"Subscribe the newsletter for all the latest updates",
+        "16" :"subuscribe",
+        "17" :"2023 ecommerce ",
+        "18" :"FIND CATEGORIES"
+
     }
 }

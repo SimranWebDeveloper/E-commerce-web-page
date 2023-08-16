@@ -5,11 +5,46 @@
         "2" : "KOLLEKSİYA",
         "3" : "BLOQ",
         "4" : "SƏHİFƏLƏR",
-        "5" : "DİL"
-        
-        
-        
-        
+        "5" : "DİL"  
+    },
+    "home":{
+        "0" :  "üst kateqoriyalar", 
+        "1" : "En cox satilanlar",
+        "2" : "SEÇİLƏN MƏHSUL",
+        "3" : "55%-Ə QƏDƏR ENDİRİM ALIN",
+        "4" : "Bluetooth qulaqlıqlar",
+        "5" :"Mağaza Kolleksiyası",
+        "6" :"33%-Ə QƏDƏR ENDİRİM ALIN",
+        "7" :"Noutbuk i5 kolleksiyası"
+    }
+    ,
+    "slider1":{
+        "0" : "Baslayan Qiymetler" ,
+        "1" : "Portativ simsiz",
+        "2" : "Ağıllı 4k masa" ,
+        "3" : "Indi al",
+        "4" :"Mağaza Kolleksiyası"
+    },
+    "footer":{
+        "0" :  "20 Princess küçəsi, london, greater london NW1, UK", 
+        "1" : "Masaüstü",
+        "2" : "Laptoplar & notebooklar",
+        "3" : "Hisseler",
+        "4" : "Tabletler",
+        "5" :"Proqram teminati",
+        "6" :"Telefon & PDAS",
+        "7" :"Musteri merkezi",
+        "8" :"Elaqe",
+        "9" :"Haqqimizda",
+        "10" :  "FAQ", 
+        "11" : "Məxfilik siyasəti",
+        "12" : "Şərtlər və Hallqr",
+        "13" : "Istek siyahisi",
+        "14" : "XƏBƏRLƏRİMİZƏ QOŞULUN",
+        "15" :"Bütün son yeniliklər üçün bülletenə abunə olun",
+        "16" :"abune ol",
+        "17" :"2023 e-ticaret ",
+        "18" :"KATEGORIYALARI TAP"
     }
 }
 

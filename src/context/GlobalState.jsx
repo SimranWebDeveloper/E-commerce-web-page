@@ -7,6 +7,7 @@ export const ContextProvider = ({ children }) => {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
   useEffect(() => {
+    // https://json-serve-jce6.onrender.com/ --render.com
     axios
       .get("http://localhost:4005/products")
       .then((res) => setData(res.data));
