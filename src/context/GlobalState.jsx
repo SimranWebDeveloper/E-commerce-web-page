@@ -9,7 +9,7 @@ export const ContextProvider = ({ children }) => {
   useEffect(() => {
     // https://json-serve-jce6.onrender.com/ --render.com
     axios
-      .get("http://localhost:4005/products")
+      .get("https://json-serve-jce6.onrender.com/products")
       .then((res) => setData(res.data));
   }, []);
 
