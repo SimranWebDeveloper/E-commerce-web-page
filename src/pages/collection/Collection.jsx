@@ -170,7 +170,7 @@ const Collection = () => {
             >
               <div className="position_r">
                 <button id="phone-btn-1" className="btn fw-semibold">
-                  Avtomobil hisseleri
+                  Musiqi  alətləri
                 </button>
                 <NavLink to={`/shop/car`} id="phone-btn-2" className="btn  fw-semibold">                Shop now    </NavLink>
 

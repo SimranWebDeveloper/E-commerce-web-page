@@ -1,5 +1,4 @@
 
-
 {
     "products":[
 
@@ -13,14 +12,13 @@
           "stock": 94,
           "brand": "Apple",
           "category": "smartphones",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T092235.773_png.webp",
+          "thumbnail": "iPhone14_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T093109.433_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T093157.343_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T093330.513_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T092445.612_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2022-09-28T093244.395_png.webp"
-          ]
+            "iPhone14_1.png",
+            "iPhone14_2.png",
+            "iPhone14_1.png",
+            "iPhone14_1.png"
+            ]
         },
         {
           "id": 2,
@@ -32,14 +30,14 @@
           "stock": 34,
           "brand": "Apple",
           "category": "smartphones",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold_png.webp",
+          "thumbnail": "iPhone14_gold_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold-1_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold-2-1_png.webp ",
-            "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold-3-1_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold-4-1_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/iPhone-14-Pro-128-GB-Gold-5-1_png.webp"
-          ]
+            "/iPhone14_gold_1.png",
+            "iPhone14_gold_2.png",
+            "/iPhone14_gold_3.png",
+            "/iPhone14_gold_4.png",
+            "/iPhone14_gold_5.png"
+            ]
         },
         {
           "id": 3,
@@ -51,13 +49,13 @@
           "stock": 36,
           "brand": "Samsung",
           "category": "smartphones",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_Front_Green-1_png.webp",
+          "thumbnail": "galaxys_1_.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_Front2_Green_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_Front_Green-1_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_FrontL30_Green_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_Back_Green_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/Global-version-SM-S916_GalaxyS23Plus_Lside_Green_png.webp"
+            "galaxys_1_.png",
+            "galaxys_2_.png",
+            "galaxys_3_.png",
+            "galaxys_4_.png",
+            "galaxys_5_.png"
           ]
         },
         {
@@ -70,13 +68,13 @@
           "stock": 123,
           "brand": "OPPO",
           "category": "smartphones",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142446.916.jpg",
+          "thumbnail": "xiaomi12_1.jpg",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142446.916.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142642.263.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142626.464.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142517.172.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-14T142554.932.jpg"
+            "xiaomi12_1.jpg",
+            "xiaomi12_2.jpg",
+            "xiaomi12_3.jpg",
+            "xiaomi12_4.jpg",
+            "xiaomi12_5.jpg"
           ]
         },
         {
@@ -89,13 +87,13 @@
           "stock": 32,
           "brand": "Huawei",
           "category": "smartphones",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-24T163740.001_png.webp",
+          "thumbnail": "huawei_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-24T163740.001_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-24T163951.572_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-24T164051.190_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/800_800_657CDB10EE78A7551CDBEBC8246C89D0_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/800_800_8558F5FC73E355C38F99D16F645D6669_png.webp"
+            "huawei_1.png",
+            "huawei_2.png",
+            "huawei_3.png",
+            "huawei_4.png",
+            "huawei_5.png"
           ]
         },
         {
@@ -108,13 +106,13 @@
           "stock": 83,
           "brand": "Apple",
           "category": "laptops-notebooks",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/02/New-Project-2023-02-17T101813.676-1_png.webp",
+          "thumbnail": "apple_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-2023-02-17T101813.676-1_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/01/DIqqet_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-2023-02-17T102208.611_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-2023-02-17T102025.304_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-2023-02-17T102128.158_png.webp"
+            "apple_1.png",
+            "apple_2.png",
+            "apple_3.png",
+            "apple_4.png",
+            "apple_5.png"
           ]
         },
         {
@@ -127,13 +125,13 @@
           "stock": 50,
           "brand": "Asus",
           "category": "laptops-notebooks",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.jpg",
+          "thumbnail": "asustuf_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-85-3_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-86-3_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-87-3_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-88-2_png.webp"
+            "asustuf_1.png",
+            "asustuf_2.png",
+            "asustuf_3.png",
+            "asustuf_4.png",
+            "asustuf_5.png"
           ]
         },
         {
@@ -146,13 +144,13 @@
           "stock": 68,
           "brand": "Microsoft Surface",
           "category": "laptops-notebooks",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/02/Predator-2_png.webp",
+          "thumbnail": "acer_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/02/Predator-2_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/4-10_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/2-12_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/3-11_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/5-10_png.webp"
+            "acer_1.png",
+            "acer_2.png",
+            "acer_3.png",
+            "acer_4.png",
+            "acer_5.png"
           ]
         },
         {
@@ -165,13 +163,13 @@
           "stock": 96,
           "brand": "Infinix",
           "category": "laptops-notebooks",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164214.266_png.webp",
+          "thumbnail": "lenovo_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164214.266_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164358.262_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164519.508_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164554.956_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-08T164634.207_png.webp"
+            "lenovo_1.png",
+            "lenovo_2.png",
+            "lenovo_3.png",
+            "lenovo_4.png",
+            "lenovo_5.png"
           ]
         },
         {
@@ -184,13 +182,13 @@
           "stock": 89,
           "brand": "HP Pavilion",
           "category": "laptops-notebooks",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092625.569_png.webp",
+          "thumbnail": "hp_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092625.569_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092549.860_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092549.860_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092709.070_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/01/New-Project-2023-02-14T092722.514_png.webp"
+            "hp_1.png",
+            "hp_2.png",
+            "hp_3.png",
+            "hp_4.png",
+            "hp_2.png"
           ]
         },
         {
@@ -203,13 +201,13 @@
           "stock": 114,
           "brand": "Al Munakh",
           "category": "camera",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/12/New-Project-2022-12-23T171521.372_png.webp",
+          "thumbnail": "camera_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/12/New-Project-2022-12-23T171521.372_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/12/19598_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/12/28777.webp",
-            "https://kontakt.az/wp-content/uploads/2022/12/24466_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/12/24467.webp"
+            "camera_1.png",
+            "camera_2.png",
+            "camera_3.png",
+            "camera_4.png",
+            "camera_5.png"
           ]
         },
         {
@@ -222,13 +220,13 @@
           "stock": 105,
           "brand": "Lord - Al-Rehab",
           "category": "camera",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/02/New-Project-7-2_png.webp",
+          "thumbnail": "camera_w_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-7-2_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-11-2_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-8-2_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-10-2_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/02/New-Project-9-2_png.webp"
+            "camera_w_1.png",
+            "camera_w_2.png",
+            "camera_w_3.png",
+            "camera_w_4.png",
+            "camera_w_5.png"
           ]
         },
         {
@@ -241,13 +239,13 @@
           "stock": 110,
           "brand": "L'Oreal Paris",
           "category": "camera",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/10/New-Project-2022-10-05T162737.039_png.webp",
+          "thumbnail": "sony_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/10/New-Project-2022-10-05T162737.039_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/10/orig-5.webp",
-            "https://kontakt.az/wp-content/uploads/2022/10/orig-6.webp",
-            "https://kontakt.az/wp-content/uploads/2022/10/orig-7.webp",
-            "https://images-na.ssl-images-amazon.com/images/I/51Qkbz8Z+pL._AC_UL900_SR615,900_.jpg"
+            "sony_1.png",
+            "sony_2.png",
+            "sony_3.png",
+            "sony_4.png",
+            "sony_3.png."
           ]
         },
         {
@@ -260,13 +258,13 @@
           "stock": 78,
           "brand": "Hemani Tea",
           "category": "tablets",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-05T100000.002_png.webp",
+          "thumbnail": "iPad_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-05T100000.002_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-05T100213.497_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-05T100123.708_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-05T100249.036_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/11/iPad_Pro_Q123_Cellular_11_in_4th_generation_Space_Gray_PDP_Image_Position-3__WWCE-scaled.webp"
+            "iPad_1.png",
+            "iPad_2.png",
+            "iPad_3.png",
+            "iPad_4.png",
+            "iPad_2.png"
           ]
         },
         {
@@ -279,13 +277,13 @@
           "stock": 88,
           "brand": "Dermive",
           "category": "tablets",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105746.625_png.webp",
+          "thumbnail": "air_pad_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105746.625_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105802.098_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105819.084_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105756.260_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2023-06-12T105832.630_png.webp"
+            "air_pad_1.png",
+            "air_pad_2.png",
+            "air_pad_3.png",
+            "air_pad_4.png",
+            "air_pad_5.png"
           ]
         },
         {
@@ -298,13 +296,13 @@
           "stock": 54,
           "brand": "Golden",
           "category": "tv",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_51__2_png.webp",
+          "thumbnail": "tv_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_51__2_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_52__3_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_53__3_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_54__3_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/kontakt_home_55__2_png.webp"
+            "tv_1.png",
+            "tv_2.png",
+            "tv_3.png",
+            "tv_4.png",
+            "tv_5.png"
           ]
         },
         {
@@ -317,13 +315,13 @@
           "stock": 54,
           "brand": "Golden",
           "category": "tv",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-16T080723.511_png.webp",
+          "thumbnail": "tv_2_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-16T080723.511_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-33_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-3-17_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-8-9_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-10-9_png.webp"
+            "tv_2_1.png",
+            "tv_2_2.png",
+            "tv_2_3.png",
+            "tv_2_4.png",
+            "tv_2_5.png"
           ]
         },
         {
@@ -336,13 +334,13 @@
           "stock": 7,
           "brand": "luxury palace",
           "category": "home-decoration",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/New-Project-448_png.webp",
+          "thumbnail": "ref_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-448_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-1-51_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/New-Project-2-15_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/PR9453BI10722_113430005_RFD_77820_SS_EU_SZ1_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/PR9453BI17404_113430005_RFD_77820_SS_EU_SZ1_png.webp"
+            "ref_1.png",
+            "ref_2.png",
+            "ref_3.png",
+            "ref_4.png",
+            "ref_5.png"
    
           ]
         },
@@ -356,13 +354,13 @@
           "stock": 54,
           "brand": "Golden",
           "category": "home-decoration",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/07/New-Project-94_png.webp",
+          "thumbnail": "ref_red_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/07/New-Project-94_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/New-Project-96_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/New-Project-95_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/New-Project-99_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/New-Project-98_png.webp"
+            "ref_red_1.png",
+            "ref_red_2.png",
+            "ref_red_3.png",
+            "ref_red_4.png",
+            "ref_red_5.png"
           ]
         },
         {
@@ -375,13 +373,13 @@
           "stock": 54,
           "brand": "Golden",
           "category": "phone_a",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161043.601_png.webp",
+          "thumbnail": "earphones_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161043.601_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161048.513_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161118.382_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161110.854_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-06T161101.561_png.webp"
+            "earphones_1.png",
+            "earphones_2.png",
+            "earphones_3.png",
+            "earphones_4.png",
+            "earphones_5.png"
           ]
         },
         {
@@ -394,13 +392,13 @@
           "stock": 54,
           "brand": "Golden",
           "category": "phone_a",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2021/05/Hx_Black_3_png.webp",
+          "thumbnail": "earphones_d_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2021/05/Hx_Black_3_png.webp",
-            "https://kontakt.az/wp-content/uploads/2021/05/HX_black_Hero_png.webp",
-            "https://kontakt.az/wp-content/uploads/2021/05/HX_Black_7_png.webp",
-            "https://kontakt.az/wp-content/uploads/2021/05/HX_Black_8_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/04/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-04-27T132627.620_png.webp"
+            "earphones_d_1.png",
+            "earphones_d_2.png",
+            "earphones_d_3.png",
+            "earphones_d_2.png",
+            "earphones_d_4.png"
           ]
         },
         {
@@ -413,13 +411,14 @@
           "stock": 54,
           "brand": "Golden",
           "category": "laptop_a",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/09/Kontakt-home-2022-09-23T091608.418_png.webp",
+          "thumbnail": "keyboard_1.png",
+
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/09/Kontakt-home-2022-09-23T091608.418_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/Kontakt-home-2022-09-23T091550.807_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/09/Kontakt-home-2022-09-23T091527.108_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-1-14_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-26_png.webp"
+            "keyboard_1.png",
+            "keyboard_2.png",
+            "keyboard_3.png",
+            "keyboard_4.png",
+            "keyboard_5.png"
           ]
         },
         {
@@ -432,14 +431,14 @@
           "stock": 54,
           "brand": "Golden",
           "category": "laptop_a",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/08/New-Project-7-6_png.webp",
+          "thumbnail": "keyboard_g_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-7-6_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-8-6_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-27_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-6-9_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/08/New-Project-5-8_png.webp"
-          ]
+            "keyboard_g_1.png",
+            "keyboard_g_2.png",
+            "keyboard_g_3.png",
+            "keyboard_g_4.png",
+            "keyboard_g_5.png" 
+            ]
         },
         {
           "id": 27,
@@ -451,13 +450,13 @@
           "stock": 54,
           "brand": "Golden",
           "category": "child",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/07/New-Project-61-2_png.webp",
+          "thumbnail": "pedestal_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/07/New-Project-61-2_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/07/08079207510000.3.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/07/08079207510000.4.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/07/08079207510000.5.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/07/08079207510000.6.jpg"
+            "pedestal_1.png",
+            "pedestal_2.png",
+            "pedestal_3.png",
+            "pedestal_4.png",
+            "pedestal_5.png"
           ]
         },
         {
@@ -470,18 +469,18 @@
           "stock": 54,
           "brand": "Golden",
           "category": "child",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-144_png.webp",
+          "thumbnail": "stroller_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-144_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-6-19_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2-57_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-4-38_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/06/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-3-43_png.webp"
+            "stroller_1.png",
+            "stroller_2.png",
+            "stroller_3.png",
+            "stroller_4.png",
+            "stroller_5.png"
           ]
         },
         {
           "id": 29,
-          "title": "Kondisioner Samsung AR09BQHQASINER",
+          "title": " Kondisioner Midea AG-18N8D0 Black",
           "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
           "price": 1099,
           "discountPercentage": 15,
@@ -489,18 +488,18 @@
           "stock": 54,
           "brand": "Golden",
           "category": "fan",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/08/Kontakt-Home-2022-08-08T120702.115_png.webp",
+          "thumbnail": "fan_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/08/Kontakt-Home-2022-08-08T120702.115_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/08/Kontakt-Home-2022-08-08T120809.615_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/08/Kontakt-Home-2022-08-08T120749.961_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/08/Kontakt-Home-2022-08-08T120732.406_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/07/bora_inverter3_473i-ig_jplb-lm_0_png.webp"
+            "fan_1.png",
+            "fan_2.png",
+            "fan_3.png",
+            "fan_4.png",
+            "fan_5.png"            
           ]
         },
         {
           "id": 30,
-          "title": "Kondisioner Midea AG-18N8D0 Black",
+          "title": "Kondisioner Samsung AR09BQHQASINER",
           "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
           "price": 1899.99,
           "discountPercentage": 30,
@@ -508,13 +507,13 @@
           "stock": 54,
           "brand": "Golden",
           "category": "fan",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092134.833_png.webp",
+          "thumbnail": "fan_w_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092134.833_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092200.069_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092219.958_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092246.460_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/05/New-Project-2023-05-22T092405.485_png.webp"
+            "fan_w_1.png",
+            "fan_w_2.png",
+            "fan_w_3.png",
+            "fan_w_4.png",
+            "fan_w_5.png"
           ]
         },
         {
@@ -527,13 +526,13 @@
           "stock": 54,
           "brand": "Golden",
           "category": "wash",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100035.365_png.webp",
+          "thumbnail": "wash_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100035.365_png.webp",
-            "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100048.835_png.webp",
-            "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100235.611_png.webp",
-            "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100226.106_png.webp",
-            "https://kontakt.az/wp-content/uploads/2020/05/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-05-15T100210.583_png.webp"
+            "wash_1.png",
+            "wash_2.png",
+            "wash_3.png",
+            "wash_4.png",
+            "wash_5.png"
           ]
         },
         {
@@ -546,51 +545,51 @@
           "stock": 54,
           "brand": "Golden",
           "category": "wash",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083059.934-1_png.webp",
+          "thumbnail": "wash_s_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083059.934-1_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083327.054_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083404.973_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083615.979_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/11/New-Project-2022-11-14T083729.477_png.webp"
+            "wash_s_1.png",
+            "wash_s_2.png",
+            "wash_s_3.png",
+            "wash_s_4.png",
+            "wash_s_5.png"
           ]
         },
         {
           "id": 33,
-          "title": "Continental ContiSportContact 6 107Y XL 285/35R23 (3572760000)",
+          "title": "Elektrik gitara dəsti Soundsation Rider GP Car Electric Guitar Pack",
           "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
-          "price": 1209.99,
+          "price": 569.99,
           "discountPercentage": 15,
-          "rating": 4.2,
+          "rating": 4.9,
           "stock": 54,
-          "brand": "Golden",
+          "brand": "Red",
           "category": "car",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T225830.343.jpg",
+          "thumbnail": "guitar_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T225830.343.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T225955.875.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T230034.265.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T224623.599-1.jpg",
-            "https://kontakt.az/wp-content/uploads/2023/03/New-Project-2023-03-17T174004.334_png.webp"
+            "guitar_1.png",
+            "guitar_2.png",
+            "guitar_3.png",
+            "guitar_4.png",
+            "guitar_1.png"
           ]
         },
         {
           "id": 34,
-          "title": "Panda Pars Series Black / Blue",
+          "title": "Piano Roland F107-BKX",
           "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
           "price": 349.99,
           "discountPercentage": 5,
-          "rating": 4.7,
+          "rating": 4.1,
           "stock": 54,
           "brand": "Golden",
           "category": "car",
-          "thumbnail": "https://kontakt.az/wp-content/uploads/2023/08/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-08-11T175416.355-1_png.webp",
+          "thumbnail": "piano_1.png",
           "images": [
-            "https://kontakt.az/wp-content/uploads/2023/08/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-08-11T175416.355-1_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/08/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-08-11T174935.811_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/08/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-08-11T174647.433_png.webp",
-            "https://kontakt.az/wp-content/uploads/2023/08/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-2023-08-11T175140.094_png.webp",
-            "https://kontakt.az/wp-content/uploads/2022/10/New-Project-57-1_png.webp"
+            "piano_1.png",
+            "piano_2.png",
+            "piano_3.png",
+            "piano_4.png",
+            "piano_5.png"
           ]
         }
 

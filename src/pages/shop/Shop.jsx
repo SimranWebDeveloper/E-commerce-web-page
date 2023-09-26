@@ -84,7 +84,7 @@ const[resultArr,setResultArr]=useState([])
               <li><NavLink onClick={()=>setfilterSituation(false)} to={`/shop/child`} id="phone-btn-2" className="btn  fw-semibold">              Usaq alemi                    </NavLink></li>
               <li><NavLink onClick={()=>setfilterSituation(false)} to={`/shop/fan`} id="phone-btn-2" className="btn  fw-semibold">                Kondisioner                   </NavLink></li>
               <li><NavLink onClick={()=>setfilterSituation(false)} to={`/shop/wash`} id="phone-btn-2" className="btn  fw-semibold">               Paltaryuyan                   </NavLink></li>
-              <li><NavLink onClick={()=>setfilterSituation(false)} to={`/shop/car`} id="phone-btn-2" className="btn  fw-semibold">                Avtomobil hisseleri           </NavLink></li>
+              <li><NavLink onClick={()=>setfilterSituation(false)} to={`/shop/car`} id="phone-btn-2" className="btn  fw-semibold">                Musiq alətləri           </NavLink></li>
               
               
             </ul>

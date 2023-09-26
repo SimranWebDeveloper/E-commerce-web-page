@@ -7,12 +7,14 @@ export const ContextProvider = ({ children }) => {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
   useEffect(() => {
-    // https://json-serve-jce6.onrender.com/ --render.com
+
+        // https://json-serve-jce6.onrender.com/products --render.com
+    // http://localhost:443/products        --localstorage
     axios
-      .get("https://json-serve-jce6.onrender.com/products")
+      .get(import.meta.env.VITE_BACKEND_URL+"products")
       .then((res) => setData(res.data));
   }, []);
-
+// console.log(data);
   return (
     <GlobalContext.Provider value={{ data, setData, search, setSearch }}>
       {children}

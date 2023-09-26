@@ -18,6 +18,7 @@ const DetailsProduct = () => {
 
   // product object
   const detailedProduct = data.find((item) => item.id.toString() === id);
+  console.log('detailedProduct',detailedProduct.images[0]);
 
   // For change image
   const [imageSrc, setImageSrc] = useState();
@@ -31,6 +32,7 @@ const DetailsProduct = () => {
   // ?? when comes  null or undefine give use '' outwise value
   useEffect(() => {
     setImageSrc(detailedProduct?.thumbnail);
+    
   }, [detailedProduct]);
   return (
     <>
@@ -46,7 +48,7 @@ const DetailsProduct = () => {
               )}`}</span>
               -%-dək endirimlər var!
             </p>
-
+{/* {import.meta.env.VITE_BACKEND_URL + product.images[0]} */}
             <div className="col-12 col-sm-12 col-md-12 col-lg-8 " >
               <div className="row ">
                 {/* ul images  */}
@@ -54,7 +56,7 @@ const DetailsProduct = () => {
                   <ul className="list-unstyled d-flex d-lg-block d-md-block ">
                     <li className="border p-2">
                       <img
-                        src={`${detailedProduct?.images[0]}`}
+                        src={`${import.meta.env.VITE_BACKEND_URL+ detailedProduct?.images[0]}`}
                         alt=""
                         className="img-fluid"
                         onClick={() =>
@@ -64,7 +66,7 @@ const DetailsProduct = () => {
                     </li>
                     <li className="border p-2">
                       <img
-                        src={`${detailedProduct?.images[1]}`}
+                        src={`${import.meta.env.VITE_BACKEND_URL+detailedProduct?.images[1]}`}
                         alt=""
                         className="img-fluid"
                         onClick={() =>
@@ -74,7 +76,7 @@ const DetailsProduct = () => {
                     </li>
                     <li className="border p-2">
                       <img
-                        src={`${detailedProduct?.images[2]}`}
+                        src={`${import.meta.env.VITE_BACKEND_URL+detailedProduct?.images[2]}`}
                         alt=""
                         className="img-fluid"
                         onClick={() =>
@@ -84,7 +86,7 @@ const DetailsProduct = () => {
                     </li>
                     <li className="border p-2">
                       <img
-                        src={`${detailedProduct?.images[3]}`}
+                        src={`${import.meta.env.VITE_BACKEND_URL+detailedProduct?.images[3]}`}
                         alt=""
                         className="img-fluid"
                         onClick={() =>
@@ -94,7 +96,7 @@ const DetailsProduct = () => {
                     </li>
                     <li className="border p-2">
                       <img
-                        src={`${detailedProduct?.images[4]}`}
+                        src={`${import.meta.env.VITE_BACKEND_URL+detailedProduct?.images[4]}`}
                         alt=""
                         className="img-fluid"
                         onClick={() =>
@@ -113,13 +115,13 @@ const DetailsProduct = () => {
                         className: "small-detail",
                         alt: "Wristwatch by Ted Baker London",
                         isFluidWidth: true,
-                        src: imageSrc ?? "",
+                        src: import.meta.env.VITE_BACKEND_URL+ imageSrc ?? "",
                         width: 380,
                         height: 480,
 
                       },
                       largeImage: {
-                        src: imageSrc ?? "",
+                        src: import.meta.env.VITE_BACKEND_URL+ imageSrc ?? "",
                         width: 1200 ,
                         height: 1800,
                         className: "large-detail",

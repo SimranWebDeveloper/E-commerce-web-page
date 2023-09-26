@@ -12,7 +12,7 @@ const SingleShopCard = ({product}) => {
     <div className='col-12 col-sm-6 col-md-6 col-lg-4 py-2'>
     <div className='singelCard position-relative '>
       <div className="img-box d-flex justify-content-center align-items-center" >
-        <img src={product.thumbnail} style={{objectFit:'contain'}} className="card-img-top" alt="..." />
+        <img src={import.meta.env.VITE_BACKEND_URL + product.thumbnail} style={{objectFit:'contain'}} className="card-img-top" alt="..." />
         </div>
         <div className="text-center  border-top p-3">
             <h5 className="card-title">{product.title}</h5>

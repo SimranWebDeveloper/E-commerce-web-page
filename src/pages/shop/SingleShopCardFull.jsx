@@ -15,7 +15,7 @@ const SingleShopCardFull = ({product}) => {
             <div className='row border-top '>
                 <div className='col-12 col-sm-6 col-md-6 col-lg-4 '>
                     <div className="img-box " >
-                    <img src={product.thumbnail} style={{objectFit:'contain'}} className="card-img-top" alt="..." />
+                    <img src={import.meta.env.VITE_BACKEND_URL + product.thumbnail} style={{objectFit:'contain'}} className="card-img-top" alt="..." />
                     </div>
                 </div>
                 <div className='col-12 col-sm-6 col-md-6 col-lg-8'>
