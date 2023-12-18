@@ -3,6 +3,7 @@ import { useCart } from 'react-use-cart';
 import {MdDelete} from 'react-icons/md'
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
+import product from './Product-Smaller.jpg'
 
 
 
@@ -59,7 +60,7 @@ const Cart = () => {
                   items.map((item,index)=> {
                     return   <tr key={item.id} className='text-center'>
 
-                      <td  ><img src={item.thumbnail} alt={item.title}  style={{width:'150px ',height:'100px ',objectFit:'contain'}}/></td>
+                      <td  ><img src={product} alt={item.title}  style={{width:'150px ',height:'100px ',objectFit:'contain'}}/></td>
 
                       <td >{item.title}</td>
                       <td >
