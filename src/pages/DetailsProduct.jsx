@@ -5,8 +5,8 @@ import visa from "../pages/home/img/visa.png";
 import paypal from "../pages/home/img/paypal.png";
 import master from "../pages/home/img/master.png";
 import american from "../pages/home/img/american.png";
-import ReactImageMagnify from "react-image-magnify";
 import watchImg687 from "../images/wristwatch_687.jpg";
+import { TransformComponent, TransformWrapper, useControls } from "react-zoom-pan-pinch";
 
 const DetailsProduct = () => {
   // Navlink id of product
@@ -34,12 +34,26 @@ const DetailsProduct = () => {
     setImageSrc(detailedProduct?.thumbnail);
     
   }, [detailedProduct]);
+
+  // Zoom icin
+  const Controls = () => {
+  const { zoomIn, zoomOut, resetTransform } = useControls();
+
+  return (
+    <div className="tools w-100">
+      <button className="btn btn-outline-danger" onClick={() => zoomIn()}>+</button>
+      <button className="btn btn-outline-danger" onClick={() => zoomOut()}>-</button>
+      <button className="btn btn-outline-danger" onClick={() => resetTransform()}>x</button>
+    </div>
+  );
+};
+
   return (
     <>
       <div className="detailsProduct-section p-5 ">
         <div className="container">
           <div className="row">
-            <p className="fs-3 " style={{ textShadow: "2px 2px 3px #8D8D8D " }}>
+            <p className="fs-3" style={{ textShadow: "2px 2px 3px #8D8D8D " }}>
               Əsl baxılası kampaniya Kontakt-da!{" "}
               <span className="fw-semibold text-danger">30</span> avqustadək
               hissəli alışda 24 ayadək faizsiz təkliflər, nağd alışda{" "}
@@ -52,7 +66,7 @@ const DetailsProduct = () => {
             <div className="col-12 col-sm-12 col-md-12 col-lg-8 " >
               <div className="row ">
                 {/* ul images  */}
-                <div className="col-12 col-sm-8 col-md-2 col-lg-2 ">
+                <div className="col-12 col-sm-12 col-md-2 col-lg-2 ">
                   <ul className="list-unstyled d-flex d-lg-block d-md-block ">
                     <li className="border p-2">
                       <img
@@ -107,29 +121,26 @@ const DetailsProduct = () => {
                   </ul>
                 </div>
                 {/* detail images  */}
-                <div className="col-10 col-sm-8 col-md-6 col-lg-6  p-5"  >
-                  {/* <img src={imageSrc} alt="" className="img-fluid " id="detail-image" /> */}
-                  <ReactImageMagnify  
-                    {...{
-                      smallImage: {
-                        className: "small-detail",
-                        alt: "Wristwatch by Ted Baker London",
-                        isFluidWidth: true,
-                        src: import.meta.env.VITE_BACKEND_URL+ imageSrc ?? "",
-                        width: 380,
-                        height: 480,
-
-                      },
-                      largeImage: {
-                        src: import.meta.env.VITE_BACKEND_URL+ imageSrc ?? "",
-                        width: 1200 ,
-                        height: 1800,
-                        className: "large-detail",
-                      },
-                    }}
-                    
-                     // ?? when comes  null or undefine give use "" Otherwise value
-                  />
+                <div className="col-12 col-sm-12 col-md-10 col-lg-10  "  >
+                  <TransformWrapper
+                        initialScale={1}
+                        initialPositionX={200}
+                        initialPositionY={100}
+                        wheel={{ disabled: true }} // Maus təkəri ilə zoom deaktiv edilir
+                        doubleWheel={{ disabled: true }} // İki barmaqla zoom deaktiv edilir
+                        panning={{ disabled: true }} // Sürükləmə deaktiv edilir
+                      >
+                        {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
+                          <>
+                            <Controls />
+                            <TransformComponent>
+                              <img className="w-100" src={import.meta.env.VITE_BACKEND_URL+ imageSrc ?? ""} alt="test" />
+                              {/* <div>Example text</div> */}
+                            </TransformComponent>
+                          </>
+                        )}
+                      </TransformWrapper>
+                      
                 </div>
               </div>
             </div>

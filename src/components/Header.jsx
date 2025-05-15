@@ -79,12 +79,12 @@ const Header = () => {
       <div className={open ? "hamgurgerDiv" : " hamgurgerDiv myZ"}></div>
 
       <nav className="container-fluid px-3 ">
-        <div className="row ">
+        <div className="row d-flex align-items-center">
           <div className="col-lg-2 col-md-3 col-sm-5 col-5">
             <NavLink to='../' >
             <img
               src={darkMode?"https://cdn.shopify.com/s/files/1/0641/3431/6288/files/logo_1236eee3-f4c2-42e4-8f8c-2ed05bf5d6db.png?v=1650977792" :
-              "https://electon6-store.myshopify.com/cdn/shop/files/logo.png?v=1650977679"} alt="" />
+              "https://electon6-store.myshopify.com/cdn/shop/files/logo.png?v=1650977679"} alt="" style={{width:'10rem'}} />
               </NavLink>
          </div>
           <div className="col-lg-4 col-md-4 col-sm-2 col-1  ">
