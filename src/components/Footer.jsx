@@ -26,9 +26,9 @@ const{t}=useTranslation()
       <div className='container py-5'>
         <div className='row'>
           <div className='col-lg-3'>
-          <img
-              src={darkMode? "https://cdn.shopify.com/s/files/1/0641/3431/6288/files/logo_1236eee3-f4c2-42e4-8f8c-2ed05bf5d6db.png?v=1650977792" :
-              "https://electon6-store.myshopify.com/cdn/shop/files/logo.png?v=1650977679"} />
+          <img 
+              src={darkMode? "logo.png" :
+              "logo.png"} />
            
 
             <form >

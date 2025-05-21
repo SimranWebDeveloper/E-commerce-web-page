@@ -99,6 +99,8 @@
 
         .sliderbtn{
             display: inline-block !important;
+            transition: 0.5s;
+            text-wrap: nowrap;
 
             &:hover{
                 background-color: #027AC0 !important;
@@ -108,11 +110,11 @@
     }
 }
 #slider1{
-    background: url("https://cdn.shopify.com/s/files/1/0641/3431/6288/files/slider-1.jpg?v=1650691565")  center/cover;
+    background: url("/src/images/slider-1.1.avif")  center/cover;
 
 }
 #slider2{
-    background: #fff url("https://cdn.shopify.com/s/files/1/0641/3431/6288/files/slider-02_1.png?v=1650977324") center/cover;
+    background: #fff url("/src/images/slider-1.2.avif") center/cover;
     
 }
 

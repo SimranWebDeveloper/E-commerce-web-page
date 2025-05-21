@@ -23,7 +23,7 @@ const Slider = () => {
       modules={[Navigation, Pagination,  Autoplay,EffectFade, A11y]}
       spaceBetween={50}
       slidesPerView={1}
-      autoplay={{delay:2000}}
+      // autoplay={{delay:2000}}
       loop={true}
       effect="fade"
       navigation
@@ -35,6 +35,7 @@ const Slider = () => {
     >
       <SwiperSlide>
         <div id="slider1" className="slider  p-5">
+  
             <div className="textSlider text-light">
                 <span className="fw-semibold fs-5">{t('slider1.0')} <span>$120.00</span></span>
                 <h1 className="text-uppercase display-3 fw-semibold py-4">{t('slider1.1')}</h1>
