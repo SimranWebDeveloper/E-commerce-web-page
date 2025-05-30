@@ -41,7 +41,7 @@ useEffect(()=>{
   return (
     <div className="wishlist-section py-5">
         <div className='container '>
-            <div className='row'>
+            <div className='row g-3'>
 
 
                 {

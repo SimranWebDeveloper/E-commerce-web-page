@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 // Import Swiper styles
 import 'swiper/css';
 
-import { Navigation,  A11y } from 'swiper';
+import { Navigation,  A11y, Autoplay } from 'swiper';
 
 
 
@@ -16,8 +16,9 @@ const Slider2 = () => {
 
 
         <Swiper
-        modules={[Navigation, A11y]}
+        modules={[Navigation, A11y,Autoplay]}
         loop={true}
+        autoplay={{delay:2000}}
         spaceBetween={10}
         breakpoints={{
           500: {

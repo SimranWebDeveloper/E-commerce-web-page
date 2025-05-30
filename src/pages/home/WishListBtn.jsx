@@ -20,7 +20,7 @@ const WishListBtn = ({product}) => {
 
 
   return (
-    <button  className="btn text-primary" onClick={()=>{toogleWishList(product);}}>{inWishlist(product.id) ? <AiFillHeart/> : <AiOutlineHeart/>  } </button>
+    <button  className="btn text-success" onClick={()=>{toogleWishList(product);}}>{inWishlist(product.id) ? <AiFillHeart/> : <AiOutlineHeart/>  } </button>
 
   )
 }

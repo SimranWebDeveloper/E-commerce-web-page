@@ -23,12 +23,12 @@ const SingleShopCardFull = ({product}) => {
             <h5 className="card-title">{product.title}</h5>
             <p>{product.price}</p>
             <p>{product.rating}</p>
-            <button className='btn btn-outline-primary' onClick={()=>{addItem(product);toast.success("added to cart")}}>Sebete at</button>
+            <button className='btn btn-outline-success' onClick={()=>{addItem(product);toast.success("added to cart")}}>Sebete at</button>
 
             <p>Lorem ipsum dolor sit amet</p>
             <div className='d-flex justify-content-between align-items-center position-absolute  '>
               <WishListBtn product={product}/>
-              <NavLink to={`../details/${product.id}`} className='btn text-black bg-semibold  '>read more...</NavLink>
+              <NavLink to={`../details/${product.id}`} className='btn text-success bg-semibold  '>read more...</NavLink>
             </div>
 
         </div>

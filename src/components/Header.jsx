@@ -131,11 +131,11 @@ const Header = () => {
           <div className="col-lg-6 col-md-5 col-sm-5 col-6 ">
             <div className=" d-xl-flex float-end align-items-center">
               {/* Search Bar */}
-              <form className="d-none d-xl-block bg-secondary-subtle rounded py-1 px-1">
-                <input
+              <form className="d-none d-xl-block border border-dark-subtle bg-secondary-subtle  rounded py-1 px-1">
+                <input style={{outline:'none'}}
                   type="search"
                   placeholder="Find your search"
-                  className="border-0 bg-secondary-subtle text-secondary py-2"
+                  className="  border-0 bg-secondary-subtle text-secondary py-2"
                   onChange={seachFunc}
                 />
 
@@ -206,13 +206,13 @@ const Header = () => {
                 
      
 
-            
+            {/* #E2E3E5 */}
 
               
                  {/*-------------------------- Hamburger Menu------------------------------- */}
                         {/* Menu icon */}
-              <button className="btn d-xl-none " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-              <GiHamburgerMenu />
+              <button className="btn d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              <GiHamburgerMenu size={30} color="gray" />
               </button>
 
                       {/*Left Menu- */}
@@ -224,10 +224,10 @@ const Header = () => {
                 </div>
                 <div className="offcanvas-body ">
                   <div className="dropdown   mt-3">
-                    <button className="btn  dropdown-toggle border-0 " type="button" data-bs-toggle="dropdown">
-                      <GiHamburgerMenu/> Menu
+                    <button className="btn  dropdown-toggle border-0 fs-5" type="button" data-bs-toggle="dropdown">
+                      <GiHamburgerMenu size={30} color="gray" /> Menu
                     </button>
-                    <ul  className="dropdown-menu hamburger-dropdown-menu w-100 border-0">
+                    <ul  className="dropdown-menu hamburger-dropdown-menu w-100 border-0 show">
                       <li className=" border-bottom border-top py-2">
                         <NavLink to="/" className="nav-link">HOME</NavLink>
                       </li>

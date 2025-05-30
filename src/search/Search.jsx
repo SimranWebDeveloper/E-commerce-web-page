@@ -21,7 +21,7 @@ const Search = () => {
   return (
     <div className="Search-section py-5">
       <div className="container">
-        <div className="row">
+        <div className="row g-3">
           {filterData(search).map((element, index) => {
             return <SingleCard product={element} key={element.id} />;
           })}
