@@ -3,7 +3,7 @@ import { useCart } from 'react-use-cart';
 import {MdDelete} from 'react-icons/md'
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
-import product from './Product-Smaller.jpg'
+import product from './default-image.png'
 
 
 
@@ -62,7 +62,7 @@ const Cart = () => {
                     
                     return   <tr key={item.id} className='text-center'>
 
-                      <td  ><img src={import.meta.env.VITE_BACKEND_URL +item?.images[0]} alt={item.title}  style={{width:'150px ',height:'100px ',objectFit:'contain'}}/></td>
+                      <td  ><img src={item?.images[0] ? import.meta.env.VITE_BACKEND_URL +item?.images[0]: product} alt={item.title}  style={{width:'150px ',height:'100px ',objectFit:'contain'}}/></td>
 
                       <td >{item.title}</td>
                       <td >
