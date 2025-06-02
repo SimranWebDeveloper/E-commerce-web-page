@@ -58,9 +58,11 @@ const Cart = () => {
                 {
                   
                   items.map((item,index)=> {
+
+                    
                     return   <tr key={item.id} className='text-center'>
 
-                      <td  ><img src={product} alt={item.title}  style={{width:'150px ',height:'100px ',objectFit:'contain'}}/></td>
+                      <td  ><img src={import.meta.env.VITE_BACKEND_URL +item?.images[0]} alt={item.title}  style={{width:'150px ',height:'100px ',objectFit:'contain'}}/></td>
 
                       <td >{item.title}</td>
                       <td >

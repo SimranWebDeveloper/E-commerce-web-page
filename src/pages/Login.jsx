@@ -113,7 +113,7 @@ const Login = () => {
                     <label htmlFor="exampleInputPassword1" className="form-label">Password*</label>
                     <input type="password" className="form-control" id="exampleInputPassword1" ref={pass} required/>
                 </div>
-                <button type="submit" className="btn btn-primary">Login</button>
+                <button type="submit" className="btn btn-outline-primary">Login</button>
         </form>
         :
         // Sign up
