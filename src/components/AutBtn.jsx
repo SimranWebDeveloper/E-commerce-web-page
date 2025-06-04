@@ -11,6 +11,8 @@ const AutBtn = () => {
   const currentUser=JSON.parse(localStorage.getItem('currentUser'))
   const logOut = () => {
     localStorage.removeItem('User')
+    localStorage.removeItem('react-use-cart')
+    localStorage.removeItem('react-use-wishlist')
     window.location.reload()
     toast.success("You are logged out of your account")
   }
@@ -18,8 +20,10 @@ const AutBtn = () => {
   const location=useNavigate()
   const logOutNotAdmin = () => {
     localStorage.removeItem('currentUser')
+    localStorage.removeItem('react-use-cart')
+    localStorage.removeItem('react-use-wishlist')
     location('/login')
-
+    window.location.reload()
     toast.success("You are logged out of your account")
   }
 

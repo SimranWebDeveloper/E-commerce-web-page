@@ -30,6 +30,7 @@ import Scroll from "../components/Scroll";
 
 const AppRouter = () => {
   const myBlogs=useSelector(store => store.AppReducer)
+  
   useEffect(()=> {
     localStorage.setItem('Blogs',JSON.stringify(myBlogs))
   },[myBlogs])
@@ -63,11 +64,13 @@ const AppRouter = () => {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/wishlist" element={<WishList />} />
-            <Route path="/cart" element={<Cart/>} />
             <Route path="/details/:id" element={<DetailsProduct />} />
 
             <Route path="/blog" element={<Blog />} />
+
             <Route path="/login" element={<Login />} />
+              <Route path="/cart" element={<Cart/>} />
+
             <Route element={<PrivateRoute />}>
               <Route path="/admin" element={<Admin />} />
               <Route path="/addblog" element={<AddBlog/>} />
